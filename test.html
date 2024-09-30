@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>helloo emmie</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik&display=swap">
+    </head>
+    <body>
+        <p class="greet-title"> HI EMMIE HAPPY BIRTHDAY!! </p>
+         
+        <div id="container">
+            <img class="birthday" src="emy.jpg">
+          </div>
+      
+          <div id="container">
+            <audio autoplay controls>
+              <source src="pahintulot.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <p>
+            I wish you the happiest birthday Emmie and I'm gifting you this letter too so you can hopefully feel the amount of love I have for you. I wish you to let your kind heart receive and spread the love that is like the moon bright, let others be blessed with your laugh and let them see you for who you truly are not only a half. I wish to you to forever bloom as if you were the most beautiful flower that is adored by everyone in the room. Everything, is what you deserve at all times keep that in mind so I wish for your soul to always seek more until its found. I wish you to always have fun and for the stars to always guide you. 
+          </p>
+
+          <div id="container">
+            <button id="show-btn">Show message</button>
+          </div>
+          <div id="hide" style="display: block;">
+            <p>
+              I'm sorry for everything. I'm sorry for not communicating properly and for any confusion caused by my words. I'm not expecting you to respond to this, I just want to clear things up. Thank you so much for helping me understand what I need to improve about myself,            
+            but in the end I still want to know you a lot, see you every day, and talk to you. I know we're too young for such things, but I'd rather learn and grow old together. I don't want to wake up one day and regret not trying, because of pride or disappointment. I need to do this for my mind and soul. I'm not perfect. I make mistakes. I have jealousy issues and trust issues. I can be moody sometimes. But I promise you that if I say I love you, I mean it. I'm faithful, I'm loyal, and I will do everything I can to keep you.
+            </p>
+          </div>
+          
+          <p>Survey for you</p>
+          <div id="container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD_W9_E8k0y158nj9mMtgkxJTZmIcpgpx_Ypdd1wwXp0EpbQ/viewform?usp=sf_link" target="_blank">
+              <button>CLICK ME</button>
+            </a>
+        </div>
+    </body>
+    
+    <script>
+      const btn = document.querySelector("#show-btn");
+      const hide = document.querySelector("#hide");
+  
+      btn.addEventListener("click", function() {
+        if(hide.style.display === "block") {
+          hide.style.display = "none";
+        } else {
+          hide.style.display = "block";
+        }
+      });
+    </script>
+</html>
